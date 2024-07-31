@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list__summary {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+.list__summary--first {
+  color: white;
+}
+.list__summary--second {
+  color: #0a2786;
+}
+.list__details {
+  padding: 30px;
+  border-radius: 0 0 20px 0px;
+  width: 50%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.list__details--first {
+  background-color: rgba(228, 19, 127, 0.468);
+}
+.list__details--second {
+  background-color: rgba(255, 255, 255, 0.468);
+}
+.list__details ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+.list__details__item {
+  margin-bottom: 10px;
+}
+.list__details__link {
+  text-decoration: underline;
+  color: black;
+  font-weight: 600;
+}
