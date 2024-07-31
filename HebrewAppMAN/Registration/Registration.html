@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./dist/Registration.css">
+</head>
+<body>
+    <div class="Registration">
+        <div class="Registration__form">
+            <h1 class="Registration__title">Registration</h1>
+            <div class="Registration__radio">
+            <label class="Registration__item">
+                <input class="Registration__item" type="radio" name="gender" value="female"> Female
+            </label>
+            <label class="Registration__item">
+                <input class="Registration__item" type="radio" name="gender" value="male"> Male
+            </label>
+        </div>
+            <label for="name">Full name</label>
+            <input type="text" id="full name" class="Registration__input" required>
+
+            <label for="age">Age</label>
+            <input type="number" id="age" class="Registration__input" required>
+
+            <label for="tell">phone number</label>
+            <input type="number" id="phone nuber" class="Registration__input" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="Registration__input" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" class="Registration__input" required>
+
+            <label for="password">confrim Password</label>
+            <input type="password" id="password" class="Registration__input" required>
+
+           
+            <label class="Registration__country" for="country">Choose a country:</label>
+            <select id="country" name="country">
+                <option value="israel">Israel</option>
+                <option value="usa">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="france">France</option>
+                <option value="germany">Germany</option>
+                <option value="italy">Italy</option>
+                <option value="spain">Spain</option>
+                <option value="canada">Canada</option>
+                  <option value="australia">Australia</option>
+                 <option value="india">India</option>
+                </select>
+
+            <button type="button" class="Registration__button">Registration</button>
+        </div>
+    </div>
+</body>
+</html>

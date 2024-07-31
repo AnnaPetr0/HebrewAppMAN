@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.Registration {
+  border: 2px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+.Registration__form {
+  display: flex;
+  flex-direction: column;
+}
+.Registration__radio {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Registration__title, .Registration__message {
+  text-align: center;
+  margin: 10px 0;
+}
+.Registration__input {
+  width: 97%;
+  margin-bottom: 10px;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.Registration__button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.Registration__button:hover {
+  background-color: #0056b3;
+}
