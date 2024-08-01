@@ -7,6 +7,7 @@
     .level_entery {
         border-radius: 25px;
         background: #007bff;
+        color: rgb(255, 255, 255);
         padding: 20px;
         margin: 20px;
         width: 1000px;
@@ -15,7 +16,18 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+<<<<<<< HEAD
         font-size: 100px;
+=======
+        font-size: 30px;
+        color: white;
+
+        .extra {
+          background-color: rgb(24, 24, 226);
+          z-index: 1;
+
+        }
+>>>>>>> ce694af3f4571c8cb9cb06b6ec176b61f7a6d1f5
     }
 
     * {
