@@ -20,8 +20,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 100px;
+  font-size: 30px;
   color: white;
+}
+.space .level_entery .extra {
+  background-color: #1818e2;
+  z-index: 1;
 }
 .space * {
   margin: 0;
