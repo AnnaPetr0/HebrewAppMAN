@@ -1,3 +1,86 @@
+body {
+  margin-top: 125px;
+}
+
+.header {
+  display: flex;
+  background-color: antiquewhite;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.header__menu {
+  width: 100%;
+  margin-left: 150px;
+}
+.header__menu-list {
+  list-style: none;
+  display: flex;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+.header__menu-item {
+  margin: 15px;
+}
+.header__menu-link {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.header__menu-link:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+  color: #0056b3;
+}
+.header__logo {
+  width: 25%;
+}
+.header__logo .header__img {
+  width: 200px;
+}
+.header .header__btn {
+  gap: 10px;
+  display: flex;
+  width: 40%;
+}
+.header .header__button {
+  padding: 10px 35px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+.header .header__button--signup {
+  background-color: rgba(228, 19, 127, 0.468);
+  color: white;
+}
+.header .header__button--signup:hover {
+  background-color: rgba(228, 19, 127, 0.468);
+  transform: translateY(-2px);
+}
+.header .header__button--signin {
+  background-color: #4CAF50;
+  color: white;
+}
+.header .header__button--signin:hover {
+  background-color: #4CAF50;
+  transform: translateY(-2px);
+}
+.header .header__link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .space {
   width: 100%;
   height: fit-content;
@@ -21,16 +104,25 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
-  font-size: 100px;
-=======
   font-size: 30px;
   color: white;
->>>>>>> ce694af3f4571c8cb9cb06b6ec176b61f7a6d1f5
+  cursor: pointer;
 }
-.space .level_entery .extra {
-  background-color: #1818e2;
-  z-index: 1;
+.space .extra {
+  background-color: #1e32e6;
+  border-radius: 25px;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  width: 1000px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
 }
 .space * {
   margin: 0;
@@ -56,6 +148,10 @@
   cursor: pointer;
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
+}
+.space .lock__link {
+  text-decoration: none;
+  cursor: pointer;
 }
 .space .lock:after {
   content: "";
