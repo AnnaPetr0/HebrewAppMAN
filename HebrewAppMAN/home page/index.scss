@@ -22,14 +22,20 @@ body{
     }
     .right{
         float: right;
-        color: white;
+        width: 70px;
     }
-    .SignUpIn{
-        border-style: solid;
+    .Sign{
         border-width: 2px;
-        border-color: white;
         border-radius: 5px;
         padding: 14px 16px;
+    }
+    .In{
+        background-color: lightgreen;
+        color: black;
+    }
+    .Up{
+        background-color: lightcoral;
+        color:black;
     }
     a:hover{
         background-color: lightgray;
@@ -38,11 +44,18 @@ body{
 }
 
 .HomePage{
+    animation: fadeIn 5s;
     text-align: left;
     font-size: 20px;
     padding-right: 16px;
     float: left;
-    padding-top: 320px;
+    padding-top: 225px;
+    padding-left: 15px;
+}
+
+@keyframes fadeIn{
+   0% {opacity: 0;}
+   100% {opacity: 1;}
 }
 
 span{

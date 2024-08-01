@@ -23,14 +23,20 @@ body {
 }
 .topnav .right {
   float: right;
-  color: white;
+  width: 70px;
 }
-.topnav .SignUpIn {
-  border-style: solid;
+.topnav .Sign {
   border-width: 2px;
-  border-color: white;
   border-radius: 5px;
   padding: 14px 16px;
+}
+.topnav .In {
+  background-color: lightgreen;
+  color: black;
+}
+.topnav .Up {
+  background-color: lightcoral;
+  color: black;
 }
 .topnav a:hover {
   background-color: lightgray;
@@ -38,13 +44,23 @@ body {
 }
 
 .HomePage {
+  animation: fadeIn 5s;
   text-align: left;
   font-size: 20px;
   padding-right: 16px;
   float: left;
-  padding-top: 320px;
+  padding-top: 225px;
+  padding-left: 15px;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 span {
   font-style: italic;
 }
