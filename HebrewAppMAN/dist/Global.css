@@ -5,14 +5,14 @@ body {
 
 .topnav {
   font-weight: bold;
-  background-color: #c7d6f2;
-  height: 100px;
+  background-color: #124adb;
+  height: 50px;
   box-shadow: 0 0 10px 0;
   overflow: hidden;
 }
 .topnav a, .topnav a:hover {
   text-align: center;
-  color: black;
+  color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -43,7 +43,7 @@ body {
 }
 
 .footer {
-  background-color: #8fb2f2;
+  background-color: #1d9ceb;
   display: flex;
   justify-content: space-around;
 }

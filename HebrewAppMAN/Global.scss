@@ -6,14 +6,14 @@ body {
   
   .topnav {
     font-weight: bold;
-    background-color: rgb(199, 214, 242);
-    height: 100px;
+    background-color:#124adb;
+    height: 50px;
     box-shadow: 0 0 10px 0;
     overflow: hidden;
   
     a, a:hover {
       text-align: center;
-      color: black;
+      color: rgb(255, 255, 255);
       padding: 14px 16px;
       text-decoration: none;
       font-size: 17px;
@@ -51,7 +51,7 @@ body {
   }
   
   .footer {
-    background-color: rgb(143, 178, 242);
+    background-color: #1d9ceb;
     display: flex;
     justify-content: space-around;
   
