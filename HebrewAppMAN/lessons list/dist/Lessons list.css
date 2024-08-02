@@ -31,7 +31,7 @@ body {
   text-align: center;
 }
 .list__details--first {
-  background-color: rgba(228, 19, 127, 0.468);
+  background-color: #124adb;
 }
 .list__details--second {
   background-color: rgba(255, 255, 255, 0.468);
@@ -43,8 +43,9 @@ body {
 }
 .list__details__item {
   margin-bottom: 10px;
+  color: white;
 }
-.list__details__link {
+.list__details .list__link {
   text-decoration: underline;
   color: black;
   font-weight: 600;
