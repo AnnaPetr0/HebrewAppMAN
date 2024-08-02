@@ -1,42 +1,4 @@
-.topnav {
-  font-weight: bold;
-  background-color: #c7d6f2;
-  height: 100px;
-  box-shadow: 0 0 10px 0;
-  overflow: hidden;
-}
-.topnav a, .topnav a:hover {
-  text-align: center;
-  color: black;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  border-width: 2px;
-  border-radius: 5px;
-}
-.topnav .left {
-  float: left;
-}
-.topnav .right {
-  float: right;
-  width: 70px;
-}
-.topnav .In {
-  background-color: lightgreen;
-  color: black;
-}
-.topnav .Up {
-  background-color: lightcoral;
-  color: black;
-}
-.topnav a:hover {
-  background-color: lightgray;
-  color: black;
-}
-.topnav .space {
-  margin-right: 10px;
-}
-
+@import '/HebrewAppMAN/dist/Global.css';
 .space {
   width: 100%;
   height: fit-content;
