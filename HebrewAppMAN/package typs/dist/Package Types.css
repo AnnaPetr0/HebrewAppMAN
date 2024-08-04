@@ -19,8 +19,8 @@
   margin: 50px;
   text-align: center;
   border-radius: 25px;
-  background-color: #ffffff;
-  color: black;
+  background-color: var(--color_backround3);
+  color: var(--color_font1);
   padding: 20px;
   margin: 20px;
   border: #007bff solid 1px;
@@ -35,8 +35,8 @@
   }*/
 }
 .packages .details .package:hover {
-  background-color: #007bff;
-  color: white;
+  background-color: var(--color_backround2);
+  color: var(--color_font2);
 }
 .packages .details .package h2 {
   padding-top: 5px;
@@ -54,9 +54,9 @@
 }
 .packages .join .purchase {
   border-radius: 25px;
-  background: #007bff;
+  background: var(--color_backround2);
   padding: 10px;
-  color: white;
+  color: var(--color_font2);
   margin-bottom: 0px;
   margin-left: 105px;
   margin-right: 105px;
@@ -64,6 +64,6 @@
   transition: all 0.5s;
 }
 .packages .join .purchase:hover {
-  background-color: #124adb;
-  color: white;
+  background-color: var(--color_backround1);
+  color: var(--color_font2);
 }

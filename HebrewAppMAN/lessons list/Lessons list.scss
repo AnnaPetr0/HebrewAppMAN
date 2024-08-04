@@ -3,8 +3,8 @@
 
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-family: var(--font_type2);
+    font-size: var(--font_h2);
   }
 
   .list {
@@ -21,11 +21,11 @@ body {
       cursor: pointer;
   
       &--first {
-        color: white;
+        color: var(--color_font2);
       }
   
       &--second {
-        color: rgb(10, 39, 134);
+        color:var(--color_font3);
       }
     }
   
@@ -37,12 +37,10 @@ body {
       text-align: center;
   
       &--first {
-        background-color:#124adb;
+        background-color:var(--color_backround1);
       }
   
-      &--second {
-        background-color: rgba(255, 255, 255, 0.468);
-      }
+
   
       ul {
         list-style-type: none; 
@@ -53,7 +51,7 @@ body {
       
       &__item {
         margin-bottom: 10px; 
-        color: rgb(255, 255, 255); 
+        color: var(--color_font2); 
 
         
 

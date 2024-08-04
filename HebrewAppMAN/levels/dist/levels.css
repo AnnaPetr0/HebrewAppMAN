@@ -12,8 +12,8 @@
 }
 .space .level_entery {
   border-radius: 25px;
-  background: #007bff;
-  color: white;
+  background: var(--color_backround2);
+  color: var(--color_font2);
   padding: 20px;
   margin: 20px;
   width: 1000px;
@@ -22,14 +22,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-size: calc(var(--font_h2)*2);
   color: white;
   cursor: pointer;
 }
 .space .extra {
-  background-color: #1e32e6;
+  background-color: var(--color_backround1);
   border-radius: 25px;
-  color: white;
+  color: var(--color_font2);
   padding: 20px;
   margin: 20px;
   width: 1000px;
@@ -38,7 +38,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-size: calc(var(--font_h2)*2);
   color: white;
   cursor: pointer;
 }

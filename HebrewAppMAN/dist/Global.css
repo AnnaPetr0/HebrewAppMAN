@@ -1,11 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Varela+Round&display=swap");
 :root {
   --color_backround1:rgb(10, 39, 134);
   --color_backround2: #1d9ceb;
   --color_backround3: white;
   --color_font1:black;
   --color_font2:white;
+  --color_font3: rgb(10, 39, 134);
   --font_type1: Arial, Helvetica, sans-serif;
-  --font_type2: Arial, Helvetica, sans-serif;
+  --font_type2: "Inter", sans-serif;
   --font_h1:18px;
   --font_h2:15px;
   --font_h3:12px;

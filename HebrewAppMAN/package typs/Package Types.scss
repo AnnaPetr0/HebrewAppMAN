@@ -22,16 +22,16 @@
             margin: 50px;
             text-align: center;
             border-radius: 25px;
-            background-color: #ffffff;
-            color: rgb(0, 0, 0);
+            background-color: var(--color_backround3);
+            color:var(--color_font1);
             padding: 20px;
             margin: 20px;
             border: #007bff solid 1px ;
             transition: all 1s;
 
             &:hover{
-                background-color:#007bff ;
-                color: white;
+                background-color:var(--color_backround2) ;
+                color: var(--color_font2);
             }
 
             
@@ -74,9 +74,9 @@
 
         .purchase {
             border-radius: 25px;
-            background: #007bff;
+            background: var(--color_backround2);
             padding: 10px;
-            color: white;
+            color: var(--color_font2);
             margin-bottom: 0px;
             margin-left: 105px;
             margin-right: 105px;
@@ -85,8 +85,8 @@
         
 
             &:hover{
-                background-color:#124adb;
-                color: white;
+                background-color:var(--color_backround1);
+                color: var(--color_font2);
             }
 
             
