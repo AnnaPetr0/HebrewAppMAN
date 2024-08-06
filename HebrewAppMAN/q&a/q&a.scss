@@ -1,0 +1,95 @@
+@import '/HebrewAppMAN/dist/Global.css';
+body {
+  direction: rtl;
+  background-image: url(https://thumbs.dreamstime.com/b/hebrew-alphabet-seamless-pattern-hebrew-abc-background-vector-illustration-blue-jewish-letters-repeating-all-characters-81447471.jpg);
+}
+
+.quiz {
+  background-color: var(--color_backround3);
+  border-radius: 30px;
+  width: 50%;
+  position: relative;
+  right: 25%;
+  align-items: center;
+}
+
+.quiz__test {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.quiz__title {
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+
+.quiz__item {
+  margin-bottom: 30px;
+}
+
+.quiz__questionnaire {
+  display: flex;
+  align-items: center;
+}
+
+.quiz__question {
+  margin: 10px 10px 10px 0;
+  font-weight: 100;
+}
+
+.quiz__select {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.quiz__highlight {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.fill-answer {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.fill-answer__title {
+  margin-bottom: 20px;
+}
+
+.fill-answer__label {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.fill-answer__input {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+label {
+  margin-right: 10px;
+}
+
+.fill-answer__finish {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fill-answer__finish button {
+  background-color: var(--btn1_color);
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.65s;
+  cursor: pointer;
+}
+.fill-answer__finish button:hover {
+  background-color: var(--color_backround1);
+}
