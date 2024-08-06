@@ -1,3 +1,6 @@
+@import '/HebrewAppMAN/dist/Global.css';
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -94,6 +97,23 @@ body {
                     }
             }
     
+        }
+
+        .next {
+            background-color: var(--btn1_color);
+            color: white;
+            padding: 10px 20px 10px 20px;
+            border-radius: 5px;
+            border: none;
+            transition: 0.65s;
+            cursor: pointer;
+
+
+        }
+
+        .next:hover{
+            background-color: var(--color_backround1);
+
         }
 
 
