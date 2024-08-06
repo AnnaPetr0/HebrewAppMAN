@@ -1,10 +1,11 @@
+@import '/HebrewAppMAN/dist/Global.css';
 body {
   direction: rtl;
   background-image: url(https://thumbs.dreamstime.com/b/hebrew-alphabet-seamless-pattern-hebrew-abc-background-vector-illustration-blue-jewish-letters-repeating-all-characters-81447471.jpg);
 }
 
 .quiz {
-  background-color: white;
+  background-color: var(--color_backround3);
   border-radius: 30px;
   width: 50%;
   position: relative;
@@ -81,14 +82,14 @@ label {
   align-items: center;
 }
 .fill-answer__finish button {
-  background-color: #0753c5;
+  background-color: var(--btn1_color);
   color: white;
   padding: 10px 20px 10px 20px;
   border-radius: 5px;
   border: none;
   transition: 0.65s;
+  cursor: pointer;
 }
 .fill-answer__finish button:hover {
-  background-color: #8a8888;
-  color: #0753c5;
+  background-color: var(--color_backround1);
 }
