@@ -81,6 +81,7 @@ label {
   flex-direction: column;
   align-items: center;
 }
+
 .fill-answer__finish button {
   background-color: var(--btn1_color);
   color: white;
@@ -90,6 +91,7 @@ label {
   transition: 0.65s;
   cursor: pointer;
 }
+
 .fill-answer__finish button:hover {
   background-color: var(--color_backround1);
 }
