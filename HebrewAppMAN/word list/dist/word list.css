@@ -3,7 +3,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #1d9ceb;
+  background-image: url("https://thumbs.dreamstime.com/b/hebrew-alphabet-seamless-pattern-hebrew-abc-background-vector-illustration-blue-jewish-letters-repeating-all-characters-81447471.jpg");
 }
 body .vocabulary {
   width: 60%;
