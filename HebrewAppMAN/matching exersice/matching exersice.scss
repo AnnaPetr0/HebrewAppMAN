@@ -1,0 +1,121 @@
+body {
+    background-image: url(https://thumbs.dreamstime.com/b/hebrew-alphabet-seamless-pattern-hebrew-abc-background-vector-illustration-blue-jewish-letters-repeating-all-characters-81447471.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    input {
+        text-align: center;
+
+    }
+
+    .instruction{
+        border: 10px solid;
+        border-radius: 25px;
+        border-color: #1d9ceb;
+        width: 60%;
+        height: 100px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagematch{
+        border: 10px solid;
+        border-radius: 25px;
+        border-color: #1d9ceb;
+        width: 80%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+
+
+
+        .computer {
+            position: absolute;
+            top: 52%;
+            left: 51%;
+            width: 40px;
+        }
+
+        .mom {
+            position: absolute;
+            top: 60%;
+            left: 38%;
+            width: 40px;
+
+        }
+
+        .dad {
+            position: absolute;
+            top: 45%;
+            left: 62%;
+            width: 40px;
+
+        }
+
+        .boy {
+            position: absolute;
+            top: 42%;
+            left: 54%;
+            width: 40px;
+
+
+        }
+
+        .girl {
+            position: absolute;
+            top: 50%;
+            left: 45%;
+            width: 40px;
+
+        }
+
+
+
+
+        .img {
+
+            width: 40%;
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            padding: 10px;
+
+
+
+        
+
+
+        }
+
+
+
+    }
+
+    .continue{
+        border: 10px solid;
+        border-radius: 25px;
+        border-color: #1d9ceb;
+        width: 60%;
+        height: 100px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .next {
+
+            
+        }
+    }
+
+}
