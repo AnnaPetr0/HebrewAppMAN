@@ -1,3 +1,4 @@
+@import '/HebrewAppMAN/dist/Global.css';
 body {
   background-image: url(https://thumbs.dreamstime.com/b/hebrew-alphabet-seamless-pattern-hebrew-abc-background-vector-illustration-blue-jewish-letters-repeating-all-characters-81447471.jpg);
   display: flex;
@@ -81,4 +82,16 @@ body .continue {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+body .continue .next {
+  background-color: var(--btn1_color);
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.65s;
+  cursor: pointer;
+}
+body .continue .next:hover {
+  background-color: var(--color_backround1);
 }
