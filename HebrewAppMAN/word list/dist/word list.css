@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://thumbs.dreamstime.com/b/hebrew-alphabet-seamless-pattern-hebrew-abc-background-vector-illustration-blue-jewish-letters-repeating-all-characters-81447471.jpg");
+}
+body .vocabulary {
+  width: 60%;
+  height: fit-content;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+}
+body .vocabulary .title {
+  font-size: 30px;
+  padding: 20px;
+  margin: 10px;
+}
+body .vocabulary .wordline {
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid black;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  position: relative;
+  gap: 50px;
+}
+body .vocabulary .wordline .newword {
+  text-align: right;
+  font-size: 30px;
+  width: 25%;
+}
+body .vocabulary .wordline .newword .title {
+  font-size: 20px;
+}
+body .vocabulary .wordline .transcription {
+  font-size: 20px;
+  width: 25%;
+  text-align: center;
+}
+body .vocabulary .wordline .voicerecord {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .vocabulary .wordline .translation {
+  font-size: 20px;
+  width: 25%;
+}
