@@ -49,11 +49,11 @@ body {
   width: 70px;
 }
 .topnav .In {
-  background-color: #a8a8a8;
+  background-color: lightgreen;
   color: black;
 }
 .topnav .Up {
-  background-color: #606060;
+  background-color: lightcoral;
   color: black;
 }
 .topnav a:hover {

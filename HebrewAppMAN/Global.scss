@@ -64,12 +64,12 @@ body {
     }
   
     .In {
-      background-color: rgb(168, 168, 168);
+      background-color: lightgreen;
       color: black;
     }
   
     .Up {
-      background-color: rgb(96, 96, 96);
+      background-color: lightcoral;
       color: black;
     }
   
@@ -87,7 +87,7 @@ body {
     background-color: #1d9ceb;
     display: flex;
     justify-content: space-around;
-  
+    
     .footer__list {
       list-style-type: none;
       align-items: center;
