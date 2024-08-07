@@ -81,16 +81,153 @@ body {
     .space {
       margin-right: 10px;
     }
+
+    @media (max-width: 480px) {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row-reverse;
+
+      &__list {
+          width: 70%;
+          a {
+              font-size: 12px;
+          }
+      }
+
+      &__btn {
+          display: flex;
+          width: 20%;
+          justify-content: space-around;
+          align-items: center;
+
+          .In, .Up {
+              font-size: 10px;
+              display: flex;
+              text-align: center;
+              align-items: center;
+          }
+      }
+  }
+
+  @media (max-width: 780px) {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+    &__list {
+        width: 55%;
+        a {
+            font-size: 15px;
+        }
+    }
+
+    &__btn {
+        display: flex;
+        width: 40%;
+        justify-content: space-around;
+
+        .In, .Up {
+            font-size: 12px;
+            display: flex;
+            text-align: center;
+            padding: 10px 15px;
+            align-items: center;
+        }
+    }
+}
+
+
+    @media (max-width: 1279px) {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+    &__list {
+        width: 75%;
+        a {
+            font-size: 15px;
+        }
+    }
+
+    &__btn {
+        display: flex;
+        width: 25%;
+        gap: 5px;
+
+        .In, .Up {
+            font-size: 12px;
+            display: flex;
+            text-align: center;
+            padding: 10px 15px;
+            align-items: center;
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+    &__list {
+        width: 50%;
+        a {
+            font-size: 20px;
+        }
+    }
+
+    &__btn {
+        display: flex;
+        width: 25%;
+        gap: 5px;
+
+
+        .In, .Up {
+            font-size: 15px;
+            display: flex;
+            text-align: center;
+            padding: 10px 15px;
+            align-items: center;
+        }
+    }
+}
+    
   }
   
   .footer {
     background-color: #1d9ceb;
     display: flex;
     justify-content: space-around;
+    width: 100%;
+
+
+    @media (max-width:480px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+
+      .footer__list{
+        text-align: center;
+        width: 100%;
+      }
+
+      .footer__item{
+        text-align: center;
+        width: 50%;
+      }
+      
+    }
     
     .footer__list {
       list-style-type: none;
       align-items: center;
+      
     }
   
     .footer__item {
