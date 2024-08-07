@@ -120,7 +120,7 @@ body {
   .topnav__btn {
     display: flex;
     width: 25%;
-    justify-content: space-around;
+    gap: 5px;
   }
   .topnav__btn .In, .topnav__btn .Up {
     font-size: 12px;
@@ -134,7 +134,7 @@ body {
   .topnav {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row-reverse;
   }
   .topnav__list {
@@ -145,8 +145,8 @@ body {
   }
   .topnav__btn {
     display: flex;
-    width: 20%;
-    justify-content: space-around;
+    width: 25%;
+    gap: 5px;
   }
   .topnav__btn .In, .topnav__btn .Up {
     font-size: 15px;

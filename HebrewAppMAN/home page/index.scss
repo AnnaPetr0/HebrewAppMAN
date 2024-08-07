@@ -140,7 +140,7 @@ body {
         &__btn {
             display: flex;
             width: 25%;
-            justify-content: space-around;
+            gap: 5px;
 
             .In, .Up {
                 font-size: 12px;
@@ -155,7 +155,7 @@ body {
     @media (min-width: 1280px) {
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-direction: row-reverse;
 
         &__list {
@@ -167,8 +167,9 @@ body {
 
         &__btn {
             display: flex;
-            width: 20%;
-            justify-content: space-around;
+            width: 25%;
+            gap: 5px;
+
 
             .In, .Up {
                 font-size: 15px;
