@@ -6,46 +6,187 @@ body{
     background-image: url(../images/HomeBack.jpg);
     background-size: cover;
     animation: fadeIn 5s;
+    
 }
 
-.topnav{
+.topnav {
     font-weight: bold;
     overflow: hidden;
-    a,a:hover{
-        text-align: center;
-        color: black;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        border-width: 2px;
-        border-radius: 5px;
-    }
-    .left{
-        float: left;
-    }
-    .right{
-        float: right;
-        width: 70px;
+
+    &__btn {
+        a {
+            text-align: center;
+            color: black;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            border-width: 2px;
+            border-radius: 5px;
+
+            &:hover {
+                background-color: lightgray;
+                color: black;
+            }
+        }
+
+        .right {
+            width: 70px;
+        }
+
+        .In {
+            background-color: lightgreen;
+            color: black;
+        }
+
+        .Up {
+            background-color: lightcoral;
+            color: black;
+        }
+
+        .Space {
+            margin-right: 10px;
+        }
     }
 
-    .In{
-        background-color: lightgreen;
-        color: black;
+    &__list {
+        .left {
+            float: left;
+
+            
+        }
+
+        a {
+            text-align: center;
+            color: black;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            border-width: 2px;
+            border-radius: 5px;
+
+            &:hover {
+                background-color: lightgray;
+                color: black;
+            }
+        }
     }
-    .Up{
-        background-color: lightcoral;
-        color:black;
+
+    @media (max-width: 480px) {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+
+        &__list {
+            width: 70%;
+            a {
+                font-size: 10px;
+            }
+        }
+
+        &__btn {
+            display: flex;
+            width: 20%;
+            justify-content: space-around;
+            align-items: center;
+
+            .In, .Up {
+                font-size: 10px;
+                display: flex;
+                text-align: center;
+                align-items: center;
+            }
+        }
     }
-    a:hover{
-        background-color: lightgray;
-        color: black;
+
+    @media (max-width: 780px) {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+
+        &__list {
+            width: 55%;
+            a {
+                font-size: 15px;
+            }
+        }
+
+        &__btn {
+            display: flex;
+            width: 40%;
+            justify-content: space-around;
+
+            .In, .Up {
+                font-size: 12px;
+                display: flex;
+                text-align: center;
+                padding: 10px 15px;
+                align-items: center;
+            }
+        }
     }
-    .space{
-        margin-right: 10px;
+
+
+        @media (max-width: 1279px) {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+
+        &__list {
+            width: 75%;
+            a {
+                font-size: 15px;
+            }
+        }
+
+        &__btn {
+            display: flex;
+            width: 25%;
+            gap: 5px;
+
+            .In, .Up {
+                font-size: 12px;
+                display: flex;
+                text-align: center;
+                padding: 10px 15px;
+                align-items: center;
+            }
+        }
+    }
+
+    @media (min-width: 1280px) {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+
+        &__list {
+            width: 50%;
+            a {
+                font-size: 20px;
+            }
+        }
+
+        &__btn {
+            display: flex;
+            width: 25%;
+            gap: 5px;
+
+
+            .In, .Up {
+                font-size: 15px;
+                display: flex;
+                text-align: center;
+                padding: 10px 15px;
+                align-items: center;
+            }
+        }
     }
 }
 
-.HomePage{
+.HomePage {
     width: 100%;
     text-align: left;
     font-size: 19px;
@@ -57,21 +198,63 @@ body{
     justify-content: space-between;
     flex-direction: row-reverse;
     align-items: center;
-    .Logo{
-        padding-top: -225px;
+
+    &__logo {
+        .Logo {
+            padding-top: -225px;
+        }
+    }
+
+    &__details {
+        h1 {
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 1em;
+        }
+    }
+
+    @media (max-width: 480px) {
+        display: flex;
+        flex-direction: column-reverse;
+
+        &__details {
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 780px) {
+        display: flex;
+        flex-direction: column-reverse;
+
+
+        &__details {
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+    
+
+
+    
+
+    @media (min-width: 1280px) {
+        display: flex;
+
+        &__details {
+            font-size: 20px;
+            text-align: center;
+        }
     }
 }
 
-@keyframes fadeIn{
-   0% {opacity: 0;}
-   100% {opacity: 1;}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
-span{
+span {
     font-style: italic;
 }
-
-
-
-
-
