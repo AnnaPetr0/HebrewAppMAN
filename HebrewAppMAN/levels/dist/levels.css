@@ -132,3 +132,23 @@ a {
   bottom: 124%;
   transform: rotate(-30deg);
 }
+@media (max-width: 480px) {
+  .space .level_entery {
+    width: 70%;
+    font-size: 18px;
+  }
+  .space .extra {
+    width: 70%;
+    font-size: 18px;
+  }
+}
+@media (max-width: 780px) {
+  .space .level_entery {
+    width: 70%;
+    font-size: 22px;
+  }
+  .space .extra {
+    width: 70%;
+    font-size: 22px;
+  }
+}

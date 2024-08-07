@@ -17,6 +17,21 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 30%;
 }
+@media (max-width: 480px) {
+  .Registration {
+    width: 100%;
+  }
+}
+@media (max-width: 780px) {
+  .Registration {
+    width: 80%;
+  }
+}
+@media (max-width: 1279px) {
+  .Registration {
+    width: 65%;
+  }
+}
 .Registration__form {
   display: flex;
   flex-direction: column;

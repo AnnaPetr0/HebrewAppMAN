@@ -13,6 +13,10 @@ a{
     display: flex;
     justify-content: center;
 
+
+
+   
+
     .level_entery {
         border-radius: 25px;
         background: var(--color_backround2);
@@ -142,6 +146,37 @@ a{
         left: 40%;
         bottom: 124%;
         transform: rotate(-30deg);
+      }
+
+      @media (max-width:480px) {
+
+        .level_entery{
+          width: 70%;
+          font-size: 18px;
+        }
+
+        .extra{
+          width: 70%;
+          font-size: 18px;
+
+        }
+        
+      }
+
+      @media (max-width: 780px){
+
+        .level_entery{
+          width: 70%;
+          font-size: 22px;
+        }
+
+        .extra{
+          width: 70%;
+          font-size: 22px;
+
+        }
+
+
       }
 }
 
