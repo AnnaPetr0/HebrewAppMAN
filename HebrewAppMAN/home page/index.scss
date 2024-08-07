@@ -102,6 +102,35 @@ body {
         flex-direction: row-reverse;
 
         &__list {
+            width: 55%;
+            a {
+                font-size: 15px;
+            }
+        }
+
+        &__btn {
+            display: flex;
+            width: 40%;
+            justify-content: space-around;
+
+            .In, .Up {
+                font-size: 12px;
+                display: flex;
+                text-align: center;
+                padding: 10px 15px;
+                align-items: center;
+            }
+        }
+    }
+
+
+        @media (max-width: 1279px) {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+
+        &__list {
             width: 75%;
             a {
                 font-size: 15px;
@@ -193,12 +222,18 @@ body {
 
     @media (max-width: 780px) {
         display: flex;
+        flex-direction: column-reverse;
+
 
         &__details {
             font-size: 20px;
             text-align: center;
         }
     }
+    
+
+
+    
 
     @media (min-width: 1280px) {
         display: flex;
