@@ -2,6 +2,16 @@
 body {
   direction: rtl;
   background-image: url(https://thumbs.dreamstime.com/b/hebrew-alphabet-seamless-pattern-hebrew-abc-background-vector-illustration-blue-jewish-letters-repeating-all-characters-81447471.jpg);
+
+  @media (max-width:480px) {
+    width: 100%;
+    
+  }
+
+  @media (max-width:780px) {
+    width: 100%;
+    
+  }
 }
 
 .quiz {
@@ -11,12 +21,37 @@ body {
   position: relative;
   right: 25%;
   align-items: center;
+  
+
+
+  @media (max-width:480px) {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+  }
+
+  @media (max-width:780px){
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .quiz__test {
   max-width: 600px;
   margin: auto;
   padding: 20px;
+
+  @media (max-width:480px){
+    font-size: 10px;
+  }
+
+  @media (min-width:481px) and  (max-width:780px){
+    font-size: 14px;
+
+  }
+  
 }
 
 .quiz__title {
@@ -52,6 +87,15 @@ body {
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
+
+  @media (max-width:480px){
+    font-size: 10px;
+  }
+  @media (min-width:481px) and  (max-width:780px){
+    font-size: 14px;
+
+  }
+  
 }
 
 .fill-answer__title {
