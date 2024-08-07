@@ -3,11 +3,17 @@ body{
     background-image: url(../images/HomeBack.jpg);
     background-size: cover;
     animation: fadeIn 5s;
+
+    
 }
 
 .topnav{
     font-weight: bold;
     overflow: hidden;
+    
+ 
+
+    
     a,a:hover{
         text-align: center;
         color: black;
@@ -16,6 +22,7 @@ body{
         font-size: 17px;
         border-width: 2px;
         border-radius: 5px;
+        
     }
     .left{
         float: left;
@@ -40,6 +47,8 @@ body{
     .space{
         margin-right: 10px;
     }
+
+   
 }
 
 .HomePage{
