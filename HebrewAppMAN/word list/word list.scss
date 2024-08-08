@@ -8,6 +8,8 @@ body {
     justify-content: center;
     background-image: url("https://thumbs.dreamstime.com/b/hebrew-alphabet-seamless-pattern-hebrew-abc-background-vector-illustration-blue-jewish-letters-repeating-all-characters-81447471.jpg");
 
+    
+
 
     .vocabulary {
         width: 60%;
@@ -20,10 +22,25 @@ body {
         border: 1px solid;
         margin: 20px;
         padding: 20px;
-        background-color: white;
+        background-color: var(--color-tertiary);
+
+        @media (max-width:480px){
+            h2{
+                font-size: var(--font-size-tablet-large);
+            }
+        }
+
+        @media (min-width:481px) and (max-width:780px){
+            h2{
+                font-size: var(--font-size-desktop-large);
+            }
+
+        }
+            
+        
 
             .title {
-                font-size: 30px;
+                font-size: calc(var(--font-size-tablet-small) *2);
                 padding: 20px;
                 margin: 10px;
 
@@ -40,9 +57,27 @@ body {
                 flex-direction: row-reverse;
                 align-items: center;
                 justify-content: center;
-                color: black;
+                color: var(--color_font1);
                 position: relative;
                 gap: 50px;
+
+
+                @media (max-width:480px) {  
+                    font-size: 10px;
+                    font-weight: bold;
+                    display: flex;
+                    gap: 2px;
+
+                }
+
+                @media (min-width:481px) and (max-width:780px){
+                    font-size: 10px;
+                    display: flex;
+                    gap: 2px;
+                    font-weight: bold;
+
+
+                }
                 
 
                 
@@ -59,7 +94,13 @@ body {
 
                         }
     
-    
+                        @media (max-width:480px){
+                            font-size: 14px;
+                        }
+
+                        @media (min-width:481px) and (max-width:780px){
+                            font-size: 15px;
+                        }
     
     
                     }
@@ -70,7 +111,13 @@ body {
                         width: 25%;
                         text-align: center;
 
+                        @media (max-width:480px){
+                            font-size: 14px;
+                        }
 
+                        @media (min-width:481px) and (max-width:780px){
+                            font-size: 15px;
+                        }
 
 
                     }
@@ -91,7 +138,13 @@ body {
                         font-size: 20px;
                         width: 25%;
 
+                        @media (max-width:480px){
+                            font-size: 14px;
+                        }
 
+                        @media (min-width:481px) and (max-width:780px){
+                            font-size: 15px;
+                        }
 
 
                     }
@@ -107,6 +160,8 @@ body {
             border: none;
             transition: 0.65s;
             cursor: pointer;
+
+            
 
 
         }

@@ -17,10 +17,20 @@ body .vocabulary {
   border: 1px solid;
   margin: 20px;
   padding: 20px;
-  background-color: white;
+  background-color: var(--color-tertiary);
+}
+@media (max-width: 480px) {
+  body .vocabulary h2 {
+    font-size: var(--font-size-tablet-large);
+  }
+}
+@media (min-width: 481px) and (max-width: 780px) {
+  body .vocabulary h2 {
+    font-size: var(--font-size-desktop-large);
+  }
 }
 body .vocabulary .title {
-  font-size: 30px;
+  font-size: calc(var(--font-size-tablet-small) *2);
   padding: 20px;
   margin: 10px;
 }
@@ -33,9 +43,25 @@ body .vocabulary .wordline {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  color: black;
+  color: var(--color_font1);
   position: relative;
   gap: 50px;
+}
+@media (max-width: 480px) {
+  body .vocabulary .wordline {
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    gap: 2px;
+  }
+}
+@media (min-width: 481px) and (max-width: 780px) {
+  body .vocabulary .wordline {
+    font-size: 10px;
+    display: flex;
+    gap: 2px;
+    font-weight: bold;
+  }
 }
 body .vocabulary .wordline .newword {
   text-align: right;
@@ -45,10 +71,30 @@ body .vocabulary .wordline .newword {
 body .vocabulary .wordline .newword .title {
   font-size: 20px;
 }
+@media (max-width: 480px) {
+  body .vocabulary .wordline .newword {
+    font-size: 14px;
+  }
+}
+@media (min-width: 481px) and (max-width: 780px) {
+  body .vocabulary .wordline .newword {
+    font-size: 15px;
+  }
+}
 body .vocabulary .wordline .transcription {
   font-size: 20px;
   width: 25%;
   text-align: center;
+}
+@media (max-width: 480px) {
+  body .vocabulary .wordline .transcription {
+    font-size: 14px;
+  }
+}
+@media (min-width: 481px) and (max-width: 780px) {
+  body .vocabulary .wordline .transcription {
+    font-size: 15px;
+  }
 }
 body .vocabulary .wordline .voicerecord {
   width: 25%;
@@ -59,6 +105,16 @@ body .vocabulary .wordline .voicerecord {
 body .vocabulary .wordline .translation {
   font-size: 20px;
   width: 25%;
+}
+@media (max-width: 480px) {
+  body .vocabulary .wordline .translation {
+    font-size: 14px;
+  }
+}
+@media (min-width: 481px) and (max-width: 780px) {
+  body .vocabulary .wordline .translation {
+    font-size: 15px;
+  }
 }
 body .next {
   background-color: var(--btn1_color);

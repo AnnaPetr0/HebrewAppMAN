@@ -10,6 +10,9 @@ body {
     background-color: #f0f0f0; 
     font-family: var(--font_type2);
 
+    
+
+ 
 }
 
 .Registration {
@@ -20,9 +23,34 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 30%;
 
+    @media (max-width:480px) {
+
+        width: 100%;
+        
+    }
+
+    @media (max-width:780px) {
+
+        width: 80%;
+        
+    }
+
+    @media (max-width:1279px) {
+
+        width: 65%;
+        
+    }
+
+
+
+
+
     &__form {
         display: flex;
         flex-direction: column;
+
+        
+        
     }
 
   &__radio{
