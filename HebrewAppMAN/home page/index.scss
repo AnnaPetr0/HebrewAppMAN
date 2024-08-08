@@ -13,7 +13,7 @@ body {
     &__btn {
         a {
             text-align: center;
-            color: black;
+            color: var(--color_font1);
             padding: 14px 16px;
             text-decoration: none;
             font-size: 17px;
@@ -22,7 +22,7 @@ body {
 
             &:hover {
                 background-color: lightgray;
-                color: black;
+                color: var(--color_font1);
             }
         }
 
@@ -32,12 +32,12 @@ body {
 
         .In {
             background-color: lightgreen;
-            color: black;
+            color: var(--color_font1);
         }
 
         .Up {
             background-color: lightcoral;
-            color: black;
+            color: var(--color_font1);
         }
 
         .Space {
@@ -54,7 +54,7 @@ body {
 
         a {
             text-align: center;
-            color: black;
+            color: var(--color_font1);
             padding: 14px 16px;
             text-decoration: none;
             font-size: 17px;
@@ -63,7 +63,7 @@ body {
 
             &:hover {
                 background-color: lightgray;
-                color: black;
+                color: var(--color_font1);
             }
         }
     }
