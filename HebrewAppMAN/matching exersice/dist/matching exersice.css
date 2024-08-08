@@ -44,7 +44,7 @@ body .imagematch {
     height: 500px;
   }
   body .imagematch .img {
-    width: 400px;
+    width: 240%;
     height: 500px;
   }
 }
