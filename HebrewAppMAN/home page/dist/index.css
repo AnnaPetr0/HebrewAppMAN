@@ -11,7 +11,7 @@ body {
 }
 .topnav__btn a {
   text-align: center;
-  color: black;
+  color: var(--color_font1);
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -20,18 +20,18 @@ body {
 }
 .topnav__btn a:hover {
   background-color: lightgray;
-  color: black;
+  color: var(--color_font1);
 }
 .topnav__btn .right {
   width: 70px;
 }
 .topnav__btn .In {
   background-color: lightgreen;
-  color: black;
+  color: var(--color_font1);
 }
 .topnav__btn .Up {
   background-color: lightcoral;
-  color: black;
+  color: var(--color_font1);
 }
 .topnav__btn .Space {
   margin-right: 10px;
@@ -41,7 +41,7 @@ body {
 }
 .topnav__list a {
   text-align: center;
-  color: black;
+  color: var(--color_font1);
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -50,7 +50,7 @@ body {
 }
 .topnav__list a:hover {
   background-color: lightgray;
-  color: black;
+  color: var(--color_font1);
 }
 @media (max-width: 480px) {
   .topnav {
