@@ -27,97 +27,75 @@ body .instruction {
     font-size: 10px;
   }
 }
+@media (min-width: 481px) and (max-width: 780px) {
+  body .instruction {
+    font-size: 10px;
+  }
+}
 body .imagematch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 10px solid;
   border-radius: 25px;
   border-color: #1d9ceb;
-  width: 80%;
+  width: 40%;
   height: 100%;
   background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 @media (max-width: 480px) {
   body .imagematch {
-    width: 240%;
-    height: 500px;
-  }
-  body .imagematch .img {
-    width: 240%;
-    height: 500px;
+    width: 300px;
   }
 }
 @media (max-width: 780px) {
   body .imagematch {
-    width: 100%;
-    height: 100%;
+    width: 400px;
   }
 }
-body .imagematch .computer {
-  position: absolute;
-  top: 52%;
-  left: 51%;
-  width: 40px;
-}
-@media (max-width: 480px) {
-  body .imagematch .computer {
-    top: 44%;
-  }
-}
-body .imagematch .mom {
-  position: absolute;
-  top: 60%;
-  left: 38%;
-  width: 40px;
-}
-@media (max-width: 480px) {
-  body .imagematch .mom {
-    left: 15%;
-    top: 50%;
-  }
-}
-body .imagematch .dad {
-  position: absolute;
-  top: 45%;
-  left: 62%;
-  width: 40px;
-}
-@media (max-width: 480px) {
-  body .imagematch .dad {
-    top: 35%;
-    left: 80%;
-  }
-}
-body .imagematch .boy {
-  position: absolute;
-  top: 42%;
-  left: 54%;
-  width: 40px;
-}
-@media (max-width: 480px) {
-  body .imagematch .boy {
-    top: 30%;
-    left: 62%;
-  }
-}
-body .imagematch .girl {
-  position: absolute;
-  top: 50%;
-  left: 45%;
-  width: 40px;
-}
-@media (max-width: 480px) {
-  body .imagematch .girl {
-    top: 40%;
-    left: 40%;
+@media (min-width: 780px) and (max-width: 1280px) {
+  body .imagematch {
+    width: 500px;
   }
 }
 body .imagematch .img {
-  width: 40%;
+  width: 400px;
   border: 1px solid #ddd;
   border-radius: 25px;
   padding: 10px;
+}
+@media (max-width: 480px) {
+  body .imagematch .img {
+    width: 300px;
+  }
+}
+body .imagematch__answer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .imagematch .red {
+  color: red;
+  font-weight: bold;
+}
+body .imagematch .green {
+  color: green;
+  font-weight: bold;
+}
+body .imagematch .black {
+  color: black;
+  font-weight: bold;
+}
+body .imagematch .blue {
+  color: blue;
+  font-weight: bold;
+}
+body .imagematch .pink {
+  color: palevioletred;
+  font-weight: bold;
+}
+body .imagematch .imagematch__select {
+  margin-bottom: 10px;
 }
 body .continue {
   border: 10px solid;
