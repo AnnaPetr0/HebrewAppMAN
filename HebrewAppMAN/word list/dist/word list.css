@@ -17,20 +17,20 @@ body .vocabulary {
   border: 1px solid;
   margin: 20px;
   padding: 20px;
-  background-color: white;
+  background-color: var(--color-tertiary);
 }
 @media (max-width: 480px) {
   body .vocabulary h2 {
-    font-size: 15px;
+    font-size: var(--font-size-tablet-large);
   }
 }
 @media (min-width: 481px) and (max-width: 780px) {
   body .vocabulary h2 {
-    font-size: 18px;
+    font-size: var(--font-size-desktop-large);
   }
 }
 body .vocabulary .title {
-  font-size: 30px;
+  font-size: calc(var(--font-size-tablet-small) *2);
   padding: 20px;
   margin: 10px;
 }
@@ -43,7 +43,7 @@ body .vocabulary .wordline {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  color: black;
+  color: var(--color_font1);
   position: relative;
   gap: 50px;
 }
