@@ -149,16 +149,25 @@ a{
       }
 
       @media (max-width:480px) {
+      
 
         .level_entery{
-          width: 70%;
           font-size: 18px;
+
         }
+
+      
 
         .extra{
           width: 70%;
           font-size: 18px;
 
+        }
+
+        .lock{
+          position: relative;
+          top: 40px;
+          left: 190px;
         }
         
       }

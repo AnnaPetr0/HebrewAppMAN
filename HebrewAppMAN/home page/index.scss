@@ -80,7 +80,7 @@ body{
         &__list {
             width: 70%;
             a {
-                font-size: 10px;
+                font-size: 12px;
             }
         }
 
@@ -108,13 +108,13 @@ body{
         &__list {
             width: 55%;
             a {
-                font-size: 15px;
+                font-size: 12px;
             }
         }
 
         &__btn {
             display: flex;
-            width: 40%;
+            width: 20%;
             justify-content: space-around;
 
             .In, .Up {

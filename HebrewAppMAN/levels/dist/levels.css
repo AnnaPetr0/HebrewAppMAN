@@ -134,12 +134,16 @@ a {
 }
 @media (max-width: 480px) {
   .space .level_entery {
-    width: 70%;
     font-size: 18px;
   }
   .space .extra {
     width: 70%;
     font-size: 18px;
+  }
+  .space .lock {
+    position: relative;
+    top: 40px;
+    left: 190px;
   }
 }
 @media (max-width: 780px) {

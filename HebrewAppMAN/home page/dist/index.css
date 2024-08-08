@@ -63,7 +63,7 @@ body {
     width: 70%;
   }
   .topnav__list a {
-    font-size: 10px;
+    font-size: 12px;
   }
   .topnav__btn {
     display: flex;
@@ -89,11 +89,11 @@ body {
     width: 55%;
   }
   .topnav__list a {
-    font-size: 15px;
+    font-size: 12px;
   }
   .topnav__btn {
     display: flex;
-    width: 40%;
+    width: 20%;
     justify-content: space-around;
   }
   .topnav__btn .In, .topnav__btn .Up {
